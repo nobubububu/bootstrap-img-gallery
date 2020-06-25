@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レスポンシブイメージギャラリー(bootstrap)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+        <a class="navbar-brand" href="#">マイアルバム</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">最新<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">日常</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">動物</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">風景</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="container img-gallery">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-5 px-sm-2">
+            <div class="img-thumbnail">
+                <img src="https://www.pakutaso.com/shared/img/thumb/AMEMAN17826009_TP_V.jpg" alt="">
+                <p class="img-title">犬</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-5 px-sm-2">
+            <div class="img-thumbnail">
+                <img src="https://pakutaso.cdn.rabify.me/shared/img/thumb/028REDN8UA.jpg.webp?d=500" alt="">
+                <p class="img-title">馬</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-5 px-sm-2">
+            <div class="img-thumbnail">
+                <img src="https://pakutaso.cdn.rabify.me/shared/img/thumb/shikun0614_11.jpg.webp?d=500" alt="">
+                <p class="img-title">オウム</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-5 px-sm-2">
+            <div class="img-thumbnail">
+                <img src="https://pakutaso.cdn.rabify.me/shared/img/thumb/tora4M3A7204.jpg.webp?d=500" alt="">
+                <p class="img-title">虎</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-5 px-sm-2">
+            <div class="img-thumbnail">
+                <img src="https://www.pakutaso.com/shared/img/thumb/HIRA88_jyoukuunoemonowonerau1_TP_V.jpg" alt="">
+                <p class="img-title">猫</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-5 px-sm-2">
+            <div class="img-thumbnail">
+                <img src="https://pakutaso.cdn.rabify.me/shared/img/thumb/tom444DSC04094.jpg.webp?d=500" alt="">
+                <p class="img-title">リス</p>
+            </div>
+          </div>
+        </div>
+    
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
